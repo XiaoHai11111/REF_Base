@@ -10,6 +10,7 @@
      - OLED_Demo：在F405_Demo的基础移植了U8G2库
      - OLED_RTOS_Demo：在OLED_Demo的基础上移植了FreeRTOS
      - OLED_AstraUI：在OLED_RTOS_Demo的基础上添加了按键单击、双击和长按，移植了B站开源的AstraUI
+     - IMU_RTOS_Demo：在OLED_RTOS_Demo的基础上添加了MPU6050的相关代码，支持DMP解算以及高通、低通、斜率滤波
   3. Images：电路板的渲染图片
 
 - 参考资料：
